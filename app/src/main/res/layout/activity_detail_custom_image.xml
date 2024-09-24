@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailCustomImage"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Judul"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:id="@+id/a1"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/primary"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/movie1"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/a1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/a2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Release : 20 November 2024"
+        android:textColor="@color/black"
+        android:layout_below="@+id/a2"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:id="@+id/a3"
+        android:fontFamily="@font/poppinsregular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todai-ji in Nara was built in 752 and is the largest wooden structure in the world. Inside is the largest Buddha statue in Japan, measuring 15 meters tall and consisting of 437 tons of bronze and 130 kg of gold."
+        android:textColor="@color/black"
+        android:layout_below="@+id/a3"
+        android:textSize="15sp"
+        android:id="@+id/a4"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppinsregular"/>
+
+
+</RelativeLayout>
